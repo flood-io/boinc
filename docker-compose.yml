@@ -1,0 +1,12 @@
+---
+version: "3"
+services:
+  folding-at-home:
+    build:
+      context: .
+    image: floodio/boinc
+    container_name: boinc
+    environment:
+      - PROJECT_URL=www.worldcommunitygrid.org
+      - ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
+    restart: unless-stopped
