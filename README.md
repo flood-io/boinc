@@ -12,6 +12,6 @@ Flood will be donating its spare CPU capacity from its own distributed load gene
 To run this yourself:
 
     docker run -it --name boinc \
-      -e PROJECT_URL=boinc.bakerlab.org/rosetta \
+      -e PROJECT_URL=<YOUR_PROJECT> \
       -e ACCOUNT_KEY=<YOUR_KEY> \
       floodio/boinc

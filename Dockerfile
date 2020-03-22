@@ -15,7 +15,7 @@ COPY --chown=boinc:boinc entrypoint.sh /opt/boinc
 
 RUN chmod +x /opt/boinc/entrypoint.sh
 
-ENV PROJECT_URL "boinc.bakerlab.org/rosetta"
+ENV PROJECT_URL "http://boinc.bakerlab.org/rosetta/"
 ENV ACCOUNT_KEY ""
 
 USER boinc
