@@ -7,6 +7,6 @@ services:
     image: floodio/boinc
     container_name: boinc
     environment:
-      - PROJECT_URL=www.worldcommunitygrid.org
+      - PROJECT_URL=boinc.bakerlab.org/rosetta
       - ACCOUNT_KEY=${BOINC_ACCOUNT_KEY}
     restart: unless-stopped
