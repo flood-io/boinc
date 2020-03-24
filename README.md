@@ -7,7 +7,6 @@ BOINC is a platform for high-throughput computing on a large scale (thousands or
 Flood will be donating its spare CPU capacity from its own distributed load generation network of grids to help advance research in medicine, clean energy, and materials science. We will be contributing to the following projects:
 
 - https://boinc.bakerlab.org/rosetta/
-- https://www.worldcommunitygrid.org/
 
 To run this yourself:
 
